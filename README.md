@@ -1,7 +1,7 @@
 <p align="center">
-<img src="attachments\email.png" width="128" height="128"/>
+<img src="/media/logo.png"/>
 <br/>
-<h3 align="center">UNSW-class-util-web-scraper</h3>
+<h3 align="center">UNSW Class Utilisation Web Scraper</h3>
 <p align="center">...</p>
 <h2></h2>
 </p>
@@ -17,6 +17,7 @@
 ...
 
 ## Instructions
+
 ...
 
 ## Requirements
