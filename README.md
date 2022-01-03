@@ -14,7 +14,7 @@
 </p>
 
 ## Description
-<a href="http://classutil.unsw.edu.au/">UNSW Class Utilisation</a> contains course capacity for all subject areas (e.g. COMP) in each term (i.e. U1/T1/T2/T3).  
+<a href="http://classutil.unsw.edu.au/">UNSW Class Utilisation</a> contains course capacity for all subject areas (e.g. COMP) in each term (i.e. U1/T1/T2/T3). Note U1 refers to courses during the summer period.
 
 unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP1511), store it in JSON format and output into a specified file. Currently only scrapes subject area of COMP (computer science) but can be easily extended to scrape other subject areas aswell.
 
