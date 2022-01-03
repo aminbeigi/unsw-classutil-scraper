@@ -1,6 +1,7 @@
 from bs4.element import Tag
 
 class Helper:
+    """A utility class to identify and extract `bs4.element.Tag`."""
     @staticmethod
     def is_course_header_row(row: Tag) -> bool:
         return bool(row.find('td', {'class':'cucourse'}))

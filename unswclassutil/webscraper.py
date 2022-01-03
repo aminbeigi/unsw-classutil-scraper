@@ -4,6 +4,7 @@ from http import HTTPStatus
 from requests.exceptions import HTTPError
 
 class WebScraper:
+    """A utility class to help with webscraping."""
     _URL = "http://classutil.unsw.edu.au/"  
 
     @staticmethod
