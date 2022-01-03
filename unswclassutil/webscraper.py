@@ -11,7 +11,7 @@ class WebScraper:
         """Initialise a browser on the correct page.
 
         Args:
-            term: A UNSW term i.e. U1/T1/T2/T3.
+            term: A UNSW term i.e. U1|T1|T2|T3.
 
         Returns:
             A StatefulBrowser.

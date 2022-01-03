@@ -22,7 +22,7 @@ COURSES_TABLE = 2
 
 def main():
     course_code = sys.argv[1].upper() # e.g. COMP1511
-    term = sys.argv[2].upper() # U1/T1/T2/T3
+    term = sys.argv[2].upper() # U1|T1|T2|T3
     output_file_path = sys.argv[3]
 
     browser = WebScraper.browser(term)
