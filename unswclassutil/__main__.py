@@ -8,18 +8,18 @@ from .webscraper import WebScraper
 
 """A small script to scrape UNSW Class Utilisation. 
 
-UNSW Class Utilisation contains course capacity for all subject areas (e.g. COMP) and terms 
-(Summer/Term 1/ Term 2/ Term 3).
+UNSW Class Utilisation contains course capacity for all subject areas (e.g. COMP) in each term 
+(U1/Term 1/Term 2/Term 3).
 
-unswclassutil will get all relevant rows for a specific course (e.g. COMP1511).
+unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP1511).
 """
 
 EXIT_FAILURE = 1
 COURSES_TABLE = 2
 
 def main():
-    course_code = sys.argv[1].upper() # course e.g. COMP1511
-    term = sys.argv[2].upper() # Summ/T1/T2/T3:
+    course_code = sys.argv[1].upper() # e.g. COMP1511
+    term = sys.argv[2].upper() # U1/T1/T2/T3
 
     browser = WebScraper.browser(term)
     courses_table = browser.get_current_page().find_all('table')[COURSES_TABLE]
@@ -27,9 +27,9 @@ def main():
     course_table: Tag
     for row in courses_table.find_all('tr'):
         name = course_code + term
-        if Helper.is_course_header_row(row) and row.find('a', {'name': name}):
-            # found first row of target course table
+        if Helper.is_target_course_table(row, name):
             course_table = row
+        raise ValueError(f'Did not find course table for course code {course_code} in term {term}')
     
     row = course_table
     output = {}
