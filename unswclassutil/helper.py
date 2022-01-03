@@ -38,31 +38,15 @@ class Helper:
     def extract_course_summary_row(row: Tag) -> dict:
         if not Helper.is_course_summary_row(row):
             raise ValueError("Incorrect row type expecting course summary row.")
-        row = row.find_next()
-        comp = row.get_text()
-        row = row.find_next()
-        sect = row.get_text()
-        row = row.find_next()
-        class_ = row.get_text()
-        row = row.find_next()
-        type = row.get_text()
-        row = row.find_next()
-        status = row.get_text()
-        row = row.find_next()
-        capacity = row.get_text()
-        row = row.find_next()
-        percent_full = row.get_text().replace(u'\xa0', '')
-        row = row.find_next()
-        times = row.get_text()
+        course_row_info = Helper._extract_course_row(row)
         course_summary = {
-            "comp": comp,
-            "sect": sect,
-            "class": class_,
-            "type": type,
-            "status": status,
-            "capacity": capacity,
-            "percent_full": percent_full,
-            "times": times,
+            "comp": course_row_info["comp"],
+            "sect": course_row_info["sect"],
+            "class": course_row_info["class"],
+            "status": course_row_info["status"],
+            "capacity": course_row_info["capacity"],
+            "percent_full": course_row_info["percent_full"],
+            "times": course_row_info["times"],
         }
         return course_summary
 
@@ -70,6 +54,21 @@ class Helper:
     def extract_course_class_row(row: Tag) -> dict:
         if not Helper.is_course_class_row(row):
             raise ValueError("Incorrect row type expecting course class row.")
+        course_row_info = Helper._extract_course_row(row)
+        course_class = {
+            "comp": course_row_info["comp"],
+            "sect": course_row_info["sect"],
+            "class": course_row_info["class"],
+            "type": course_row_info["type"],
+            "status": course_row_info["status"],
+            "capacity": course_row_info["capacity"],
+            "percent_full": course_row_info["percent_full"],
+            "times": course_row_info["times"],
+        }
+        return course_class
+
+    @staticmethod
+    def _extract_course_row(row: Tag) -> dict:
         row = row.find_next()
         comp = row.get_text()
         row = row.find_next()
@@ -77,7 +76,7 @@ class Helper:
         row = row.find_next()
         class_ = row.get_text()
         row = row.find_next()
-        type = row.get_text()
+        type_ = row.get_text()
         row = row.find_next()
         status = row.get_text()
         row = row.find_next()
@@ -86,14 +85,14 @@ class Helper:
         percent_full = row.get_text().replace(u'\xa0', '')
         row = row.find_next()
         times = row.get_text()
-        course_class = {
+        output = {
             "comp": comp,
             "sect": sect,
             "class": class_,
-            "type": type,
+            "type": type_,
             "status": status,
             "capacity": capacity,
             "percent_full": percent_full,
             "times": times,
         }
-        return course_class
+        return output
