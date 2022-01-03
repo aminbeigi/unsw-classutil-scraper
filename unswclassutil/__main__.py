@@ -11,10 +11,12 @@ from .webscraper import WebScraper
 """A small script to scrape UNSW Class Utilisation. 
 
 UNSW Class Utilisation contains course capacity for all subject areas (e.g. COMP) in each term 
-(U1/Term 1/Term 2/Term 3).
+(i.e. U1/T1/T2/T3).
 
-unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP1511),
-store it in json format and output into a specified file.
+unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP1511), store it
+in JSON format and output into a specified file.
+Currently only scrapes subject area of COMP (computer science) but can be easily extended to
+scrape other subject areas aswell.
 """
 
 EXIT_FAILURE = 1
