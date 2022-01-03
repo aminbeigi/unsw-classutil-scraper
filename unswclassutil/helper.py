@@ -1,5 +1,7 @@
 from bs4.element import Tag
 
+from .stringparser import StringParser
+
 class Helper:
     """A utility class to identify and extract `bs4.element.Tag`."""
     @staticmethod
@@ -23,7 +25,7 @@ class Helper:
     @staticmethod
     def extract_course_header_row(row: Tag) -> dict:
         if not Helper.is_course_header_row(row):
-            raise ValueError("Incorrect row type expecting course header row.")
+            raise ValueError('Incorrect row type expecting course header row.')
 
         course_code = row.find_next('td').get_text().replace(u'\xa0', '')
         course_name = row.find_next('td').find_next('td').get_text()
@@ -39,6 +41,15 @@ class Helper:
         if not Helper.is_course_summary_row(row):
             raise ValueError("Incorrect row type expecting course summary row.")
         course_row_info = Helper._extract_course_row(row)
+
+        # `course_row_info["times"]` here contains course enrolment type
+        enrolment_type_string = course_row_info["times"]
+        enrolment_type: str
+        if 'UGRD' in enrolment_type_string:
+            enrolment_type = 'UGRD'
+        else:
+            enrolment_type = 'PGRD'
+
         course_summary = {
             "comp": course_row_info["comp"],
             "sect": course_row_info["sect"],
@@ -46,7 +57,7 @@ class Helper:
             "status": course_row_info["status"],
             "capacity": course_row_info["capacity"],
             "percent_full": course_row_info["percent_full"],
-            "times": course_row_info["times"],
+            "enrolment_type": enrolment_type
         }
         return course_summary
 
@@ -63,9 +74,13 @@ class Helper:
             "status": course_row_info["status"],
             "capacity": course_row_info["capacity"],
             "percent_full": course_row_info["percent_full"],
-            "times": course_row_info["times"],
+            "times": StringParser.parse_times_string(course_row_info["times"])
         }
         return course_class
+
+    @staticmethod
+    def is_target_course_table(row: Tag, name: str) -> bool:
+        return Helper.is_course_header_row(row) and row.find('a', {'name': name})
 
     @staticmethod
     def _extract_course_row(row: Tag) -> dict:
@@ -93,6 +108,6 @@ class Helper:
             "status": status,
             "capacity": capacity,
             "percent_full": percent_full,
-            "times": times,
+            "times": times
         }
         return output
