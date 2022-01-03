@@ -1,0 +1,317 @@
+{
+    "COMP6080": {
+        "courseName": "Web Front-End Programming",
+        "PGRD": {
+            "comp": "CRS",
+            "sect": "CR01",
+            "class": " 2559",
+            "status": "Full",
+            "capacity": "42/42",
+            "percentFull": "100%",
+            "enrolmentType": "PGRD",
+            "classes": [
+                {
+                    "comp": "LEC",
+                    "sect": "A",
+                    "class": " 9340",
+                    "type": "Rel",
+                    "status": "Open",
+                    "capacity": "88/130",
+                    "percentFull": "68%",
+                    "times": [
+                        "Mon 18-20# (w1-5,7-9, Online)",
+                        "Wed 18-20# (w1-5,7-10, Online) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T15A",
+                    "class": " 9341",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "4/10 [32]",
+                    "percentFull": "40%",
+                    "times": [
+                        "Tue 15 (w1-5,7-10, Webst 250) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T15B",
+                    "class": " 9342",
+                    "type": "Enr",
+                    "status": "Full",
+                    "capacity": "14/14 [32]",
+                    "percentFull": "100%",
+                    "times": [
+                        "Tue 15 (w1-5,7-10, Online) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T16A",
+                    "class": " 9343",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "5/15 [32]",
+                    "percentFull": "33%",
+                    "times": [
+                        "Tue 16 (w1-5,7-10, Webst 250) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T16B",
+                    "class": " 9344",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "11/14 [32]",
+                    "percentFull": "79%",
+                    "times": [
+                        "Tue 16 (w1-5,7-10, Online) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T18A",
+                    "class": " 9345",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "4/26 [32]",
+                    "percentFull": "15%",
+                    "times": [
+                        "Tue 18 (w1-5,7-10, Quad G053) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T18B",
+                    "class": " 9346",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "7/24 [32]",
+                    "percentFull": "29%",
+                    "times": [
+                        "Tue 18 (w1-5,7-10, Online) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T19A",
+                    "class": " 9347",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "11/22 [32]",
+                    "percentFull": "50%",
+                    "times": [
+                        "Tue 19 (w1-5,7-10, Online) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W15A",
+                    "class": " 9348",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "2/11 [32]",
+                    "percentFull": "18%",
+                    "times": [
+                        "Wed 15 (w1-5,7-10, Law 388) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W15B",
+                    "class": " 9349",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "7/10 [32]",
+                    "percentFull": "70%",
+                    "times": [
+                        "Wed 15 (w1-5,7-10, Online) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W16A",
+                    "class": " 9350",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "7/14 [32]",
+                    "percentFull": "50%",
+                    "times": [
+                        "Wed 16 (w1-5,7-10, Law 388) Comb/w  COMP6080-UGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W16B",
+                    "class": " 9351",
+                    "type": "Enr",
+                    "status": "Full",
+                    "capacity": "16/16 [32]",
+                    "percentFull": "100%",
+                    "times": [
+                        "Wed 16 (w1-5,7-10, Online) Comb/w  COMP6080-UGRD"
+                    ]
+                }
+            ]
+        },
+        "UGRD": {
+            "comp": "CRS",
+            "sect": "CR01",
+            "class": " 1865",
+            "status": "Full",
+            "capacity": "44/44",
+            "percentFull": "100%",
+            "enrolmentType": "UGRD",
+            "classes": [
+                {
+                    "comp": "LEC",
+                    "sect": "A",
+                    "class": " 9328",
+                    "type": "Rel",
+                    "status": "Open",
+                    "capacity": "176/220",
+                    "percentFull": "80%",
+                    "times": [
+                        "Mon 18-20# (w1-5,7-9, Online)",
+                        "Wed 18-20# (w1-5,7-10, Online) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T15A",
+                    "class": " 9329",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "22/28 [32]",
+                    "percentFull": "79%",
+                    "times": [
+                        "Tue 15 (w1-5,7-10, Webst 250) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T15B",
+                    "class": " 9330",
+                    "type": "Enr",
+                    "status": "Full",
+                    "capacity": "18/18 [32]",
+                    "percentFull": "100%",
+                    "times": [
+                        "Tue 15 (w1-5,7-10, Online) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T16A",
+                    "class": " 9331",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "17/27 [32]",
+                    "percentFull": "63%",
+                    "times": [
+                        "Tue 16 (w1-5,7-10, Webst 250) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T16B",
+                    "class": " 9332",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "18/21 [32]",
+                    "percentFull": "86%",
+                    "times": [
+                        "Tue 16 (w1-5,7-10, Online) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T18A",
+                    "class": " 9333",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "6/28 [32]",
+                    "percentFull": "21%",
+                    "times": [
+                        "Tue 18 (w1-5,7-10, Quad G053) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T18B",
+                    "class": " 9334",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "8/25 [32]",
+                    "percentFull": "32%",
+                    "times": [
+                        "Tue 18 (w1-5,7-10, Online) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "T19A",
+                    "class": " 9335",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "10/21 [32]",
+                    "percentFull": "48%",
+                    "times": [
+                        "Tue 19 (w1-5,7-10, Online) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W15A",
+                    "class": " 9336",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "21/30 [32]",
+                    "percentFull": "70%",
+                    "times": [
+                        "Wed 15 (w1-5,7-10, Law 388) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W15B",
+                    "class": " 9337",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "22/25 [32]",
+                    "percentFull": "88%",
+                    "times": [
+                        "Wed 15 (w1-5,7-10, Online) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W16A",
+                    "class": " 9338",
+                    "type": "Enr",
+                    "status": "Open",
+                    "capacity": "18/25 [32]",
+                    "percentFull": "72%",
+                    "times": [
+                        "Wed 16 (w1-5,7-10, Law 388) Comb/w  COMP6080-PGRD"
+                    ]
+                },
+                {
+                    "comp": "TUT",
+                    "sect": "W16B",
+                    "class": " 9339",
+                    "type": "Enr",
+                    "status": "Full",
+                    "capacity": "16/16 [32]",
+                    "percentFull": "100%",
+                    "times": [
+                        "Wed 16 (w1-5,7-10, Online) Comb/w  COMP6080-PGRD"
+                    ]
+                }
+            ]
+        }
+    }
+}
