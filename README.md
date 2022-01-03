@@ -21,12 +21,12 @@ unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP15
 ## Instructions
 1. clone repo  
 `git clone git@github.com:aminbeigi/unsw-classutil-scraper.git`
-2. cd into root dir and install requirements  
+2. cd into root dir then install requirements  
 `pip install -r requirements.txt`
 3. install the `unswclassutil` module locally     
 `pip install .` 
 4. run the `unswclassutil` module with command line args  
-`python -m unswclassutil course term output_file_path`
+`python -m unswclassutil course term output_file_path`  
 for example: `python -m unswclassutil comp1511 t1 ./output.json`
 5. check the output JSON in the specified output file path
 
