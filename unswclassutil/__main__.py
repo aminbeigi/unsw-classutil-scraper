@@ -35,15 +35,21 @@ def main():
     
     row = course_table
     output = {}
-    output.update(Helper.extract_course_header_row(row))
-    output[course_code]["classes"] = []
+    course_header = Helper.extract_course_header_row(row)
+    output.update(course_header)
 
     while True:
         row = row.find_next('tr') 
-        if Helper.is_course_class_row(row):
-            output[course_code]["classes"].append(Helper.extract_course_class_row(row))
-        elif Helper.is_course_summary_row(row):
-            output[course_code].update(Helper.extract_course_summary_row(row))
+        if Helper.is_course_summary_row(row):
+            course_summary = Helper.extract_course_summary_row(row)
+            enrolment_type = course_summary['enrolment_type']
+            output[course_code][enrolment_type] = {}
+            output[course_code][enrolment_type] = course_summary
+            output[course_code][enrolment_type]["classes"] = []
+        elif Helper.is_course_class_row(row):
+            course_class = Helper.extract_course_class_row(row)
+            enrolment_type = course_summary['enrolment_type']
+            output[course_code][enrolment_type]["classes"].append(course_class)
         elif Helper.is_course_header_row(row):
             # reached end of course table
             break 
