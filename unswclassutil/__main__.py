@@ -1,4 +1,6 @@
 import sys
+import json
+import humps
 
 from bs4.element import Tag
 
@@ -20,6 +22,7 @@ COURSES_TABLE = 2
 def main():
     course_code = sys.argv[1].upper() # e.g. COMP1511
     term = sys.argv[2].upper() # U1/T1/T2/T3
+    output_file_path = sys.argv[3]
 
     browser = WebScraper.browser(term)
     courses_table = browser.get_current_page().find_all('table')[COURSES_TABLE]
@@ -53,10 +56,12 @@ def main():
         elif Helper.is_course_header_row(row):
             # reached end of course table
             break 
-    print(output)
+    
+    with open(output_file_path, 'w') as f:
+        json.dump(humps.camelize(output), f, indent=4)
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print(f"Usage: python {sys.argv[0]} course term", file = sys.stderr)
+    if len(sys.argv) != 4:
+        print(f"Usage: python {sys.argv[0]} course term output_file_path", file = sys.stderr)
         sys.exit(EXIT_FAILURE)
     main()
