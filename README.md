@@ -1,5 +1,5 @@
 <p align="center">
-<img src="/media/logo.png"/>
+<img src="/media/logo.png"/ alt="logo">
 <br/>
 <h3 align="center">UNSW Class Utilisation Web Scraper</h3>
 <p align="center">A script to scrape UNSW Class Utilisation web page. </p>
@@ -10,7 +10,7 @@
 <p align="center">
 <a href="../../issues"><img src="..."/></a>
 <a href="../../pulls"><img src="https://img.shields.io/github/issues-pr/aminbeigi/unsw-classutil-scraper.svg?style=flat-square" /></a>
-<img src="https://img.shields.io/github/license/aminbeigi/unsw-classutil-scraper?style=flat-square">
+<img src="https://img.shields.io/github/license/aminbeigi/unsw-classutil-scraper?style=flat-square" alt="logo>
 </p>
 
 ## Description
@@ -31,6 +31,9 @@ for example: `python -m unswclassutil comp1511 t1 ./output.json`
 5. check the output JSON in the specified output file path
 
 ## Example
+Screenshot of COMP6080 course table for Term 1  
+<img src="media/comp6080t1_course_table.PNG" alt="media/comp6080t1_course_table.PNG">
+
 Lets find class utilisation for course COMP6080 in term 1 using the following command `python -m unswclassutil comp6080 t1 ./output.json`.  
 Output generated for above command is found in <a href="out/example_output.json">out/example_output.json</a>.
 
