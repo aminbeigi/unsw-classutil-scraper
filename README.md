@@ -27,6 +27,10 @@
 `python -m unswclassutil comp1511 t1 ./output.json`
 5. Check the output fike path folder for file
 
+## Example
+<a href="out/example_output.json">Output generated for following command `python -m unswclassutil comp6080 t1 ./output.json`.</a>
+
+
 ## Requirements
 * Python 3.8.10+
 
