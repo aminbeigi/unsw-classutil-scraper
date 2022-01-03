@@ -24,11 +24,13 @@ def main():
     browser = WebScraper.browser(term)
     courses_table = browser.get_current_page().find_all('table')[COURSES_TABLE]
 
-    course_table: Tag
+    course_table: Tag = None
     for row in courses_table.find_all('tr'):
         name = course_code + term
         if Helper.is_target_course_table(row, name):
             course_table = row
+
+    if not course_table:
         raise ValueError(f'Did not find course table for course code {course_code} in term {term}')
     
     row = course_table
