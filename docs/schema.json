@@ -1,0 +1,1166 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "COMP6080": {
+        "type": "object",
+        "properties": {
+          "courseName": {
+            "type": "string"
+          },
+          "PGRD": {
+            "type": "object",
+            "properties": {
+              "comp": {
+                "type": "string"
+              },
+              "sect": {
+                "type": "string"
+              },
+              "class": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "capacity": {
+                "type": "string"
+              },
+              "percentFull": {
+                "type": "string"
+              },
+              "enrolmentType": {
+                "type": "string"
+              },
+              "classes": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "comp",
+              "sect",
+              "class",
+              "status",
+              "capacity",
+              "percentFull",
+              "enrolmentType",
+              "classes"
+            ]
+          },
+          "UGRD": {
+            "type": "object",
+            "properties": {
+              "comp": {
+                "type": "string"
+              },
+              "sect": {
+                "type": "string"
+              },
+              "class": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "capacity": {
+                "type": "string"
+              },
+              "percentFull": {
+                "type": "string"
+              },
+              "enrolmentType": {
+                "type": "string"
+              },
+              "classes": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "comp": {
+                        "type": "string"
+                      },
+                      "sect": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "capacity": {
+                        "type": "string"
+                      },
+                      "percentFull": {
+                        "type": "string"
+                      },
+                      "times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "comp",
+                      "sect",
+                      "class",
+                      "type",
+                      "status",
+                      "capacity",
+                      "percentFull",
+                      "times"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "comp",
+              "sect",
+              "class",
+              "status",
+              "capacity",
+              "percentFull",
+              "enrolmentType",
+              "classes"
+            ]
+          }
+        },
+        "required": [
+          "courseName",
+          "PGRD",
+          "UGRD"
+        ]
+      }
+    },
+    "required": [
+      "COMP6080"
+    ]
+  }
