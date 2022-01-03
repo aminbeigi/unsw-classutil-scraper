@@ -2,7 +2,7 @@
 <img src="/media/logo.png"/>
 <br/>
 <h3 align="center">UNSW Class Utilisation Web Scraper</h3>
-<p align="center">A script to scrape UNSW class utilisation web page. </p>
+<p align="center">A script to scrape UNSW Class Utilisation web page. </p>
 <h2></h2>
 </p>
 <br />
@@ -14,8 +14,7 @@
 </p>
 
 ## Description
-<a href="http://classutil.unsw.edu.au/">UNSW class utilisation</a> contains course capacity for all subject areas (e.g. COMP) in each term 
-(i.e. U1/Term 1/Term 2/Term 3).  
+<a href="http://classutil.unsw.edu.au/">UNSW Class Utilisation</a> contains course capacity for all subject areas (e.g. COMP) in each term (i.e. U1/T1/T2/T3).  
 
 unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP1511), store it in JSON format and output into a specified file. Currently only scrapes subject area of COMP (computer science) but can be easily extended to scrape other subject areas aswell.
 
