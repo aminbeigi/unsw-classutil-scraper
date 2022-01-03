@@ -28,8 +28,8 @@
 5. Check the output fike path folder for file
 
 ## Example
-<a href="out/example_output.json">Output generated for following command `python -m unswclassutil comp6080 t1 ./output.json`.</a>
-
+Lets find out class utilisation for course COMP6080 is term 1 using the following command `python -m unswclassutil comp6080 t1 ./output.json`.  
+Output generated for above command is found in <a href="out/example_output.json">out/example_output.json</a>.
 
 ## Requirements
 * Python 3.8.10+
