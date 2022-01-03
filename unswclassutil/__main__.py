@@ -13,7 +13,8 @@ from .webscraper import WebScraper
 UNSW Class Utilisation contains course capacity for all subject areas (e.g. COMP) in each term 
 (U1/Term 1/Term 2/Term 3).
 
-unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP1511).
+unswclassutil will get all relevant rows for a specific COMP course (e.g. COMP1511),
+store it in json format and output into a specified file.
 """
 
 EXIT_FAILURE = 1
