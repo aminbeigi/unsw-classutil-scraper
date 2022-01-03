@@ -8,6 +8,8 @@ class StringParser:
             string: A string. For example: 'Fri 09 (w1-5,7-8,10, Quad G046); Fri 10-12 (w1-5,7-8,10, BrassME305)'
 
         Returns:
-            A list of times.
+            A list of times or an empty list.
         """
+        if not string:
+            return []
         return string.split('; ')
