@@ -17,8 +17,15 @@
 ...
 
 ## Instructions
-
-...
+1. clone repo  
+`git clone git@github.com:aminbeigi/unsw-classutil-scraper.git`
+2. cd into root dir and install requirements  
+`pip install -r requirements.txt`
+3. install the `unswclassutil` module locally     
+`pip install .` 
+4. run the `unswclassutil` module with command line args      
+`python -m unswclassutil comp1511 t1 ./output.json`
+5. Check the output fike path folder for file
 
 ## Requirements
 * Python 3.8.10+
