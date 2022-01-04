@@ -1,7 +1,6 @@
 import sys
 import json
 import humps
-
 from bs4.element import Tag
 
 from .helper import Helper
