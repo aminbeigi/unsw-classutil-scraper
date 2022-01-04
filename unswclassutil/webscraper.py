@@ -4,7 +4,7 @@ from mechanicalsoup import StatefulBrowser
 
 class WebScraper:
     """A utility class to help with webscraping."""
-    _URL = "http://classutil.unsw.edu.au/"  
+    _BASE_URL = "http://classutil.unsw.edu.au/"  
 
     @staticmethod
     def browser(term: str) -> StatefulBrowser:
@@ -20,13 +20,8 @@ class WebScraper:
             HTTPError: An unexpected HTTP status code when trying to access page.
         """
         browser = StatefulBrowser()
-        response = browser.open(WebScraper._URL)
+        response = browser.open(WebScraper._BASE_URL + f'COMP_{term}.html')
         if response.status_code != HTTPStatus.OK:
-            raise HTTPError(f"Unexpected status code trying to access {WebScraper._URL}"
-                            f"Expected status code is 200 but actual was {response.status_code}.")
-
-        response = browser.follow_link(f'COMP_{term}.html')
-        if response.status_code != HTTPStatus.OK:
-            raise HTTPError(f"Unexpected status code trying to access {WebScraper._URL}/COMP_{term}.html"
+            raise HTTPError(f"Unexpected status code trying to access {WebScraper._BASE_URL}/COMP_{term}.html."
                             f"Expected status code is 200 but actual was {response.status_code}.")
         return browser
