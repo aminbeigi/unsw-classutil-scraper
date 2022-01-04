@@ -31,7 +31,7 @@ for example: `python -m unswclassutil comp1511 t1 ./output.json`
 5. check the output JSON in the specified output file path
 
 ## Example
-Screenshot of COMP6080 course table for term 1:  
+Screenshot of COMP6080 course table in term 1:  
 <img src="media/comp6080t1_course_table.PNG" alt="media/comp6080t1_course_table.PNG">
 
 Lets find class utilisation for COMP6080 in term 1 using the following command `python -m unswclassutil comp6080 t1 ./output.json`.  
