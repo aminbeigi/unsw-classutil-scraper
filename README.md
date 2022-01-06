@@ -8,8 +8,8 @@
 <br />
 
 <p align="center">
-<a href="../../issues"><img src="..."/></a>
-<a href="../../pulls"><img src="https://img.shields.io/github/issues-pr/aminbeigi/unsw-classutil-scraper.svg?style=flat-square" /></a>
+<a href="../../issues"><img src="https://img.shields.io/github/issues/aminbeigi/aminbeigi.com.svg?style=flat-square"/></a>
+<a href="../../pulls"><img src="https://img.shields.io/github/issues-pr/aminbeigi/unsw-classutil-scraper.svg?style=flat-square"/></a>
 <img src="https://img.shields.io/github/license/aminbeigi/unsw-classutil-scraper?style=flat-square" alt="logo">
 </p>
 
